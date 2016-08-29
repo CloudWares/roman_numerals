@@ -37,7 +37,7 @@ function convertToRoman(num) {
 
   	if (number[i] == 4 || number[i] == 9) {
   		ans += dictionary[i][0];
-  		ans += (number[i] == 4) ? dictionary[i + 1][0] : dictionary[i][1];
+  		ans += (number[i] == 9) ? dictionary[i + 1][0] : dictionary[i][1];
   	}
 
   }
